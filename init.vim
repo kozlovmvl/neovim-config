@@ -18,7 +18,7 @@ nnoremap <Down> :echoe "Use j"<CR>
 noremap tt :NERDTreeRefreshRoot<CR> :NERDTreeToggle<CR>
 noremap rr :ToggleTerm<CR>
 
-call plug#begin('C:\\nvim-data\\pluged')
+call plug#begin()
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}
